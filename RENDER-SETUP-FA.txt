@@ -1,0 +1,21 @@
+راهنمای راه‌اندازی ربات عرشیا
+
+۱) عرشیا در تلگرام به @BotFather برود و /newbot را اجرا کند.
+۲) نام و username ربات جدید را انتخاب کند و توکن را دریافت کند.
+۳) یک مخزن GitHub جدا برای این پروژه بسازید و محتویات ZIP را در آن قرار دهید.
+۴) در Render: New + > Web Service و مخزن جدید را وصل کنید.
+۵) Runtime: Python 3
+۶) Build Command: pip install -r requirements.txt
+۷) Start Command: python bot.py
+۸) Publish Directory خالی بماند.
+۹) Environment Variables:
+   BOT_TOKEN = توکن جدید BotFather
+   ADMIN_USERNAME = Lanat_Ba_To_Lanati
+   ADMIN_CHAT_ID = 8545093827
+   PYTHON_VERSION = 3.12.10
+   BOT_NAME = Arshia Danesh
+   OWNER_NAME = عرشیا دانش
+   CHANNEL_URL = https://t.me/AR_Better
+۱۰) Deploy کنید. عرشیا وارد ربات شود و /start بزند.
+
+توکن را در فایل‌ها یا GitHub قرار ندهید. این ربات باید با توکن خودش و سرویس Render جدا اجرا شود.
